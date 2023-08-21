@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Handjet', cursive;
+    font-size:50px;
 }
 .remote{
   position: relative
