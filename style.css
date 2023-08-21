@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    
+}
+.remote{
+  position: relative
+}
+.remote *{
+  position: absolute;
+  font-size: 200px;
+}
+
+#up{
+  top: 0;
+  right: 40%;
+}
+#down {
+  top: 500px;
+  right: 40%;
+}
+#right {
+  top: 250px;
+  right: 15%;
+}
+#left {
+  top: 250px;
+  right: 65%;
+}
