@@ -22,14 +22,14 @@ var moveX=0
 var moveY=0
 var snakeBody=[]
 const snakeHead= new Image();
-snakeHead.src='/snakeBody.jpg'
+snakeHead.src='snakeBody.jpg'
 const snakeBodyImage = new Image();
-snakeBodyImage.src='/snakeBody.jpg'
+snakeBodyImage.src='snakeBody.jpg'
 
 
 // food
 const food = new Image();
-food.src = '/food.png'
+food.src = 'food.png'
 
 var foodX;
 var foodY;
@@ -124,14 +124,14 @@ left.ontouchend=function(){
   if (moveX==0) {
     moveX=-1
     moveY=0
-    snakeHead.src='/snakeLeft.jpg'
+    snakeHead.src='snakeLeft.jpg'
   }
 }
 right.ontouchend = function() {
     if (moveX ==0) {
       moveX = 1
       moveY = 0
-      snakeHead.src='/snakeRight.jpg'
+      snakeHead.src='snakeRight.jpg'
     }
     
 }
@@ -139,7 +139,7 @@ down.ontouchend=function (){
   if (moveY==0) {
     moveX=0
     moveY=1
-    snakeHead.src='/snakeDown.jpg'
+    snakeHead.src='snakeDown.jpg'
   }
 }
 
@@ -147,7 +147,7 @@ up.ontouchend = function() {
     if (moveY == 0) {
       moveX = 0
       moveY = -1
-      snakeHead.src='/snakeUp.png'
+      snakeHead.src='snakeUp.png'
     }
 }
 
