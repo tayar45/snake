@@ -49,7 +49,7 @@ window.onload=function () {
  //remoteControle
    
 
-  setInterval(update,1000/5)
+  setInterval(update,1000/8)
    
    
 }
